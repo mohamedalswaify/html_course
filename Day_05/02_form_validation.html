@@ -1,0 +1,26 @@
+<!-- التحقق من صحة البيانات -->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>التحقق من صحة البيانات</title>
+</head>
+<body>
+    <h1>نموذج التحقق</h1>
+    <form>
+        <label>الاسم الكامل:</label>
+        <input type="text" name="fullname" required minlength="3"><br><br>
+
+        <label>البريد الإلكتروني:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label>كلمة المرور:</label>
+        <input type="password" name="password" required minlength="6"><br><br>
+
+        <label>رقم الهاتف:</label>
+        <input type="tel" pattern="[0-9]{10}" title="أدخل 10 أرقام"><br><br>
+
+        <button type="submit">تسجيل</button>
+    </form>
+</body>
+</html>
