@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #7f8c8d;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}

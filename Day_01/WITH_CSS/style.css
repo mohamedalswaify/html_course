@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+img {
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,20 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  max-width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}

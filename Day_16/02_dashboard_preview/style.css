@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eef1f5;
+  padding: 20px;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}

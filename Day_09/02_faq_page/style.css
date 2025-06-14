@@ -1,0 +1,23 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  direction: rtl;
+  margin: 0;
+}
+header, footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+section {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

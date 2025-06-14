@@ -1,0 +1,33 @@
+
+/* تنسيق عناصر HTML5 الهيكلية */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #fdfdfd;
+    color: #222;
+    line-height: 1.8;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a, nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section, article, aside {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}

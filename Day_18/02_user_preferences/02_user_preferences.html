@@ -1,0 +1,40 @@
+<!-- صفحة تفضيلات المستخدم -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تفضيلات المستخدم</title>
+  <link rel="stylesheet" href="02_user_preferences.css">
+</head>
+<body>
+    <header>
+        <h1>تفضيلات المستخدم</h1>
+    </header>
+
+    <main>
+        <section style="max-width: 500px; border: 1px solid #ccc; padding: 20px;">
+            <form>
+                <label for="language">اللغة المفضلة:</label><br>
+                <select id="language">
+                    <option value="ar" selected>العربية</option>
+                    <option value="en">الإنجليزية</option>
+                </select><br><br>
+
+                <label>الإشعارات:</label><br>
+                <input type="checkbox" id="notify_email" checked> البريد الإلكتروني<br>
+                <input type="checkbox" id="notify_sms"> الرسائل النصية<br><br>
+
+                <label>الثيم:</label><br>
+                <input type="radio" name="theme" value="light" checked> فاتح<br>
+                <input type="radio" name="theme" value="dark"> داكن<br><br>
+
+                <button type="submit">حفظ التفضيلات</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة - منصة التعليم</p>
+    </footer>
+</body>
+</html>

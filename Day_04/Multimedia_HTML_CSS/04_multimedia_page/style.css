@@ -1,0 +1,22 @@
+
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: right;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+img, video, audio, iframe {
+  display: block;
+  margin-bottom: 20px;
+  max-width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}

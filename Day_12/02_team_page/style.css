@@ -1,0 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef1f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+.member {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+}

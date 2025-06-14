@@ -1,0 +1,17 @@
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+h1, h2, h3 {
+  color: #4caf50;
+}
+.container {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}

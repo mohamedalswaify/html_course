@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    padding: 40px;
+    color: #333;
+    line-height: 1.6;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+em {
+    font-style: italic;
+    color: #8e44ad;
+}
+
+u {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+mark {
+    background-color: yellow;
+    padding: 2px 4px;
+}
+
+sub {
+    font-size: 14px;
+    vertical-align: sub;
+    color: #555;
+}
+
+sup {
+    font-size: 14px;
+    vertical-align: super;
+    color: #555;
+}
